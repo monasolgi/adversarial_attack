@@ -14,13 +14,13 @@ A custom perturbation layer is inserted before the CNN:
 
 Input image
       │
-      ▼
+      
 Perturbation layer (x + δ)
       │
-      ▼
+      
 Frozen CNN
       │
-      ▼
+      
 Logits
 
 The perturbation δ is the only trainable parameter. It has the same spatial dimensions as the input image (28 × 28 × 1), meaning that each pixel has one learnable perturbation value.
