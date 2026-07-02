@@ -55,9 +55,7 @@ Task 2:
 
 The L2 regularizer is replaced with the Hoyer-square regularizer
 
-(sum(|δ|))²
--------------------
-sum(δ²) + ε
+(sum(|δ|))² / sum(δ²) + ε
 
 which encourages sparse perturbations, i.e., changing only a small number of pixels.
 
